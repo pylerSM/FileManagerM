@@ -22,5 +22,6 @@ public class FileManagerM extends Activity {
         intent.setData(uri);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
+        finish();
     }
 }
